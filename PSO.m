@@ -15,7 +15,7 @@ d = 64;                       % population size is 64
 k = 1:8;
 end
 
-w = 1;                        % internal constant
+w = 0.25;                        % internal constant
 c = 2;                        % The best value for cognitive c1 and social c2 components is 2 => c1 = c2 = c = 2
 
 [X,Y] = meshgrid(k,k);                 % we create two 8x8 matrices
